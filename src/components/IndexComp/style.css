@@ -1,0 +1,33 @@
+.nav-check{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-check a{
+    text-align: center;
+    height:110px;
+    background-color: #fff;
+    width: 42%;
+    margin:10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 17px 0 rgba(199,199,199,0.50);
+}
+.nav-check label{
+    padding-top:4px;
+}
+.desc{
+    font-size:12px;
+    text-align: center;
+    color: #4C4C4C;
+    /*background:#fefdfb;*/
+    margin-bottom:10px;
+    box-shadow: 0 2px 4px 0 rgba(199,199,199,0.20);
+}
+.desc p{
+    margin-top:-30px;
+    height:30px;
+    line-height: -30px;
+}

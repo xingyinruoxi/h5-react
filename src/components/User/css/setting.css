@@ -1,0 +1,35 @@
+.item-setting{
+    background-color: #ffffff;
+    height:48px;
+    border-bottom:1px solid #EEEEEE;
+    padding:0 20px;
+    font-size:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-setting span{
+    font-size:12px;
+    color: #666666;
+}
+.bg-setting{
+    position: relative;
+}
+.bg-setting .logo{
+    position: absolute;
+    left:50%;
+    margin-left:-40px;
+    top:50%;
+    margin-top: -40px;
+}
+.bg-setting .version{
+    position: absolute;
+    z-index: 55;
+    display: block;
+    width: 100%;
+    color: #666666;
+    text-align: center;
+    left: 0;
+    top:50%;
+    margin-top: 45px;
+}

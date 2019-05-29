@@ -1,0 +1,36 @@
+.tip{
+   background-color: #ffffff;
+    margin:22px;
+    text-align: center;
+    padding:20px 0;
+
+
+
+}
+.tip .container{
+    background: url("../img/bg-card-left.png") no-repeat left center, url("../img/bg-card-right.png") no-repeat right center;
+    background-size: 14px auto;
+}
+.tip p{
+    font-size: 18px;
+    padding:46px 0;
+}
+.tip .pic{
+    border-top:1px dashed #EEEEEE;
+    padding-bottom:24px;
+    padding-top: 48px;
+}
+.tip footer{
+    padding:0 20px;
+    height:128px;
+    font-size: 20px;
+    display: flex;
+    border-top:1px dashed #EEEEEE;
+    border-bottom:1px dashed #EEEEEE;
+    justify-content: space-around;
+    align-items: center;
+}
+.tip .line{
+   width: 1px;
+    background: #EEEEEE;
+}

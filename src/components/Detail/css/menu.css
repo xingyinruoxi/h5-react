@@ -1,0 +1,80 @@
+.order-detail{
+    margin-bottom:54px;
+}
+.order-process{
+    display: flex;
+    flex-direction: column;
+    height:142px;
+    background: -webkit-linear-gradient(#ddf4fa, #ffffff);
+    background: -o-linear-gradient(#ddf4fa, #ffffff);
+    background: -moz-linear-gradient(#ddf4fa, #ffffff);
+    background: linear-gradient(#ddf4fa, #ffffff);
+    margin-bottom:15px;
+}
+.order-state{
+    display: flex;
+    height:112px;
+    flex-direction: column;
+    background: url("../img/state.png") no-repeat right center;
+    background-size: 138px auto;
+    border-bottom:1px solid #eeeeee;
+    padding-left:10px;
+    padding-top:30px;
+    font-size: 13px;
+}
+.state-text{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom:36px;
+}
+.order-process a{
+    text-align: center;
+    font-size: 12px;
+    color: #49A0EC;
+    height:32px;
+    line-height: 32px;
+}
+.list-address{
+    background: #fff;
+    padding:10px 0;
+    padding-left:15px;
+    line-height: 30px;
+    border-bottom:1px solid #EEEEEE;
+}
+.list-address label{
+    display: inline-block;
+    color: #A2A2A2;
+    width: 70px;
+}
+.agent-tel{
+    display:flex;
+    background: #ffffff;
+    color: #49A0EC;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+}
+.ico-tel-circle{
+    display: inline-block;
+    width: 33px;
+    height:33px;
+    background-position: 0 -192px;
+}
+.list-address .widthType{
+    display: inline-block;
+    width: calc( 100% - 165px );
+}
+.client-tel{
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    top:16px;
+    right: 10px;
+    border-left: 1px solid #EFEFEF;
+}
+.client-tel p{
+    font-size: 12px;
+    color: #49A0EC;
+    margin-top: 2px;
+    line-height: 14px;
+}

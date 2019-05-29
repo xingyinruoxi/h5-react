@@ -1,0 +1,128 @@
+.badge{
+    color: #fff;
+    height:20px;
+    background:#cbcbcb ;
+    font-size:12px;
+    line-height:20px;
+    padding:2px 7px;
+}
+.product-pic{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom:2px;
+    padding:20px 0;
+}
+.list-block{
+    background: #fff;
+    margin-bottom:10px;
+    padding-left:15px;
+    font-weight:normal;
+}
+.list-block label{
+    font-size: 12px;
+    /*width: 100px;*/
+    color: #A2A2A2;
+}
+.list-block li{
+    display: flex;
+    padding:14px 0;
+    border-bottom:1px solid #f2f2f2;
+    align-items: center;
+    position: relative;
+}
+.list-block li.no-border{
+    border-bottom:none;
+}
+.dl-detail dt{
+    height:48px;
+    text-align: center;
+    line-height: 48px;
+    border-bottom:1px solid #f3f3f3;
+    /*background: #fff;*/
+}
+.list-block.detail{
+    padding-left:0;
+
+
+}
+.dl-detail dd{
+    padding-bottom:10px;
+}
+.dl-detail dd h5{
+    font-size: 12px;
+    margin-top:10px;
+}
+.dl-detail dd p{
+    text-indent: 2em;
+    font-size: 12px;
+    line-height:22px;
+    margin-bottom:12px;
+}
+.product-coach label{
+    font-size:15px;
+    color: #686868;
+}
+.product-coach strong{
+    font-size:15px;
+}
+.product-coach span{
+    font-size:12px;
+}
+.ico-more{
+    width: 28px;
+    height:6px;
+    background-position: 0 -252px;
+    display: block;
+    float: right;
+}
+.ico-reduce,.ico-add{
+    width: 34px;
+    height:34px;
+}
+.ico-reduce.active{
+    background-position: 0 -112px;
+}
+.ico-reduce{
+    background-position: -47px -112px;
+}
+.ico-add.active{
+    background-position: 0 -153px;
+}
+.ico-add{
+    background-position: -47px -153px;
+}
+.ico-adddress{
+    width: 16px;
+    height:16px;
+    background-position:-2px -286px;
+    margin-right:4px;
+}
+.ico-consult{
+    width: 90px;
+    height:28px;
+    background-position:-2px -76px;
+}
+.list-block li .ico-more,.list-block li .ico-consult{
+    position: absolute;
+    right: 15px;
+}
+.list-block li .num{
+    align-items: center;
+    display: flex;
+}
+.list-block li .num span{
+    width: 80px;
+    text-align: center;
+}
+.product-detail{
+    margin-bottom:80px;
+}
+.product-detail footer{
+    position: fixed;
+    bottom:-20px;
+    width: 100%;
+}
+.product-detail footer a{
+    border-radius: 0;
+}

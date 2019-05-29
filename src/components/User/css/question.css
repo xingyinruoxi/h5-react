@@ -1,0 +1,8 @@
+.item-question{
+    background: #ffffff;
+    display: block;
+    font-size: 16px;
+    line-height:20px;
+    border-bottom:1px solid #EEEEEE;
+    padding:12px 20px;
+}

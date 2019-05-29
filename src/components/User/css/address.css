@@ -1,0 +1,52 @@
+.item-address{
+    background: #ffffff;
+    padding:15px;
+    /*line-height:2rem;*/
+    border-bottom:1px solid #EEEEEE;
+    position: relative;
+}
+.item-address .name{
+    display: inline-block;
+    margin-right:20px;
+}
+.link-address-from{
+    display: block;
+    color: #49A0EC;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+/*.addressform{
+    display: flex;
+    flex-direction: column;
+}*/
+.addressform .item-address{
+    padding:12px 15px;
+    display: flex;
+}
+.addressform .item-address label{
+    width: 94px;
+    display: inline-block;
+}
+.addressform footer{
+    padding:25px;
+}
+.item-address.link-arraw{
+    background:#fff url("../img/arrow.png") no-repeat calc( 100% - 24px) center;
+    background-size: 7px auto;
+}
+.ico-check{
+    display: inline-block;
+    width: 28px;
+    height:28px;
+    background-size: 28px auto;
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+.ico-check.no{
+    background-image: url("./../img/checkNo.png");
+}
+.ico-check.ok{
+    background-image: url("./../img/checkOk.png");
+}

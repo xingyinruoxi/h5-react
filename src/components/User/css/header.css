@@ -1,0 +1,23 @@
+.header-avatar{
+    background: #ffffff;
+    text-align: center;
+}
+.header-avatar a{
+    display: block;
+    padding-top:10px;
+    color: #56B1FF;
+}
+.account{
+    display: flex;
+    background:#ffffff;
+    justify-content: space-around;
+    padding:34px 15px;
+    text-align: center;
+}
+.account span,.account .num{
+    font-size: 16px;
+}
+.account .line{
+    width: 1px;
+    background: #EEEEEE;
+}

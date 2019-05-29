@@ -1,0 +1,124 @@
+.signin{
+    padding: 0 28px;
+}
+.signin footer{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 100px;
+}
+.signin footer a{
+    color: #3399FF;
+}
+.forgetped{
+    color: #3399FF;
+    display: inline-block;
+    float: right;
+}
+.signin .title,.signin .text{
+    text-align: center;
+}
+.signin .title{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+    padding-top:60px;
+}
+.signin .text{
+    font-size: 15px;
+    line-height: 30px;
+    color: #666666;
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.item-input{
+    height:50px;
+    border-bottom: 1px solid #D3D3D3;;
+    margin-bottom:8px;
+    display: flex;
+    align-items: center;
+}
+.item-input input{
+    border-left:1px solid #999;
+    border-radius: 0;
+    font-size: 16px;
+    text-indent: 12px;
+}
+.btn{
+    display: block;
+    font-size: 18px;
+    height:48px;
+    line-height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+}
+.btn-submit{
+    margin:20px 0;
+    color: #ffffff;
+    background: -webkit-linear-gradient(225deg, #EF2F46 0%, #FD6B7D 97%);
+    background: -o-linear-gradient(225deg, #EF2F46 0%, #FD6B7D 97%);
+    background: -moz-linear-gradient(225deg, #EF2F46 0%, #FD6B7D 97%);
+    background: linear-gradient(225deg, #EF2F46 0%, #FD6B7D 97%);
+}
+.btn-submit:active,.btn-submit.disabled{
+    background: -webkit-linear-gradient(225deg, rgba(239,47,70,0.40) 0%, rgba(253,107,125,0.40) 100%);
+    background: -o-linear-gradient(225deg,rgba(239,47,70,0.40) 0%, rgba(253,107,125,0.40) 100%);
+    background: -moz-linear-gradient(225deg,rgba(239,47,70,0.40) 0%, rgba(253,107,125,0.40) 100%);
+    background: linear-gradient(225deg,rgba(239,47,70,0.40) 0%, rgba(253,107,125,0.40) 100%);
+}
+.ico-phone,.ico-lock{
+    width: 22px;
+    height:22px;
+    margin-right:10px;
+}
+.ico-phone{
+    background-position:-3px -475px;
+}
+.ico-lock{
+    background-position:-3px -514px;
+}
+.forgetpwd .title,.reset-pwd .title{
+    font-size: 20px;
+    padding:30px 0;
+}
+.forgetpwd .btn{
+    margin-top:60px;
+}
+.forgetpwd input{
+    font-size: 18px;
+    border-left:none;
+    text-align: center;
+    text-indent: 0;
+    width: 100%;
+}
+.forgetpwd .item-input{
+    height:60px;
+}
+.reset-pwd input{
+    border-left:none;
+    text-indent: 0;
+    width: 100%;
+}
+.send-code{
+    width: 200px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    border: none;
+    border-left:1px solid #999;
+    color: #999;
+    background: none;
+}
+.send-code.active{
+    color: #49A0EC;
+}
+.subErr{
+    text-align: center;
+    /* font-size: 16px; */
+    margin-top: -10px;
+    margin-bottom: 7px;
+    border: 1px solid red;
+    background-color: #f3f3f3;
+    padding: 5px 0;
+    border-radius: 5px;
+}

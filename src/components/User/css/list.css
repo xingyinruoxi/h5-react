@@ -1,0 +1,33 @@
+.list-user{
+    background: #ffffff;
+    padding-left:24px;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+.list-user li{
+    display: flex;
+    height:60px;
+    align-items: center;
+    border-bottom:1px solid #EEEEEE;
+}
+.link-arrow{
+    background: url("../img/arrow.png") no-repeat calc( 100% - 24px) center;
+    background-size: 7px auto;
+}
+.link-arrow span{
+    line-height: 60px;
+}
+.list-user li .ico{
+    width: 22px;
+    height:23px;
+    display: inline-block;
+    margin-right:10px;
+    background: url("../img/icos.png") no-repeat;
+    background-size:22px auto ;
+}
+.list-user li .ico.ico-question{
+    background-position: 0 -61px;
+}
+.list-user li .ico.ico-setting{
+    background-position: 0 -122px;
+}

@@ -1,0 +1,50 @@
+.bar-tab{ bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background: #f8f8f8;
+    z-index: 77;
+}
+
+.bar-tab ~  section .content{
+    bottom: 44px;
+}
+.tab-item{
+    /*display: block;*/
+    width:40px;
+    text-align: center;
+    color: #b6b6b6;
+    font-size:12px;
+}
+.tab-item.active{
+    color: #f75263;
+}
+.tab-item .icon{
+    width: 30px;
+    height:28px;
+}
+.icon-home{
+    background: url("img/icon-home.png") center no-repeat;
+    background-size:20px auto;
+}
+.icon-menu{
+    background: url("img/icon-menu.png") center no-repeat;
+    background-size:18px auto;
+}
+.icon-user{
+    background: url("img/icon-user.png") center no-repeat;
+    background-size:18px auto;
+}
+.tab-item.active .icon-home{
+    background: url("img/icon-home-active.png") center no-repeat;
+    background-size:28px auto;
+}
+.tab-item.active .icon-menu{
+    background: url("img/icon-menu-active.png") center no-repeat;
+    background-size:28px auto;
+}
+.tab-item.active .icon-user{
+    background: url("img/icon-user-active.png") center no-repeat;
+    background-size:28px auto;
+}

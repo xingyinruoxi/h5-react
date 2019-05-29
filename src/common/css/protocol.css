@@ -1,0 +1,21 @@
+.article{
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+.article .title{
+    font-size: 16px;
+    margin:5px 0;
+}
+.article p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.article li{
+    padding-bottom:2px;
+}
+.article h5{
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 8px;
+    font-weight:bold;
+}

@@ -1,0 +1,77 @@
+.card{
+    background: #fff;
+    margin-bottom:8px;
+    padding:0 10px;
+    position: relative;
+}
+.card header,.card footer{
+    height:36px;
+    line-height:36px;
+    font-size:12px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.card section{
+    padding:12px 0;
+    display: flex;
+    border-bottom:1px solid #EEEEEE;
+}
+.card footer{
+    border-bottom:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card header .pull-right{
+    color: #EF2F46;
+}
+.card .img{
+    width: 120px;
+    height:100px;
+    background:#f2f2f2 url("img/bg.png") no-repeat center;
+    background-size:44px auto ;
+    /*border:1px solid #EEEEEE;*/
+}
+.card.no-margin{
+    margin-bottom:0;
+}
+.inner{
+    padding-left:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title label,.subtitle small{
+    font-size:12px;
+}
+.title span{
+    font-size:15px;
+    display: block;
+    padding-bottom:4px;
+}
+.title label{
+    color: #ffffff;
+    padding:0 2px;
+    background:#CBCBCB ;
+}
+.subtitle small{
+    display: block;
+    color: #666666;
+    padding-top:4px;
+}
+.list-card{
+    margin-bottom:10px;
+}
+.ico-service{
+    width: 94px;
+    height:28px;
+    background-position: 0 0;
+    position: absolute;
+    right: 15px;
+    bottom: 12px;
+}
+.ico-send{
+    display: inline-block;
+    width: 93px;
+    height: 29px;
+    background-position: 0 -38px;
+}
